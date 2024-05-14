@@ -1,0 +1,19 @@
+# 在本地创建一个新的目录
+mkdir my-repo
+cd my-repo
+ 
+# 初始化本地目录作为Git仓库
+git init
+ 
+# 添加文件到仓库
+touch README.md
+git add README.md
+ 
+# 提交你的更改
+git commit -m "Initial commit"
+ 
+# 连接到GitHub仓库
+git remote add origin https://github.com/your-username/your-repo-name.git
+ 
+# 将本地提交推送到GitHub
+git push -u origin master
